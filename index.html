@@ -4,10 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/style_1.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav-bar">
+            <div class="container-fluid" id="nav-box" >
+              <a class="navbar-brand" href="#"><img class="logo" src="https://i.pinimg.com/564x/2f/a2/32/2fa2321cb1703d6eef32410774156fed.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Alumnos & Apoderados
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Cursos</a></li>
+                      <li><a class="dropdown-item" href="#">Agregar curso</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Apoderados</a></li>
+                      <li><a class="dropdown-item" href="#">Agregar apoderado</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Agendar</a></li>
+                      <li><a class="dropdown-item" href="#">Modificar Agendamiento</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Aportes</a></li>
+                      <li><a class="dropdown-item" href="#">Facturas</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Soporte</a>
+                  </li>
+                </ul>
+                
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+              <div class="login-box">
+                <a href="">Login</a>  
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="main" id="main">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" >
+              <div class="card h-100" id="card-box-1">
+                <img src="https://www.vipcar.es/wp-content/uploads/2019/07/vipcar-autocar-post.jpg" class="card-img-top" alt="..." id="bus-photo">
+                <div class="card-body">
+                  <h5 class="card-title">Viaje en Bus</h5>
+                  <p class="card-text">Embárcate en una aventura terrestre con nuestros emocionantes viajes en autobús. Descubre paisajes pintorescos, ciudades encantadoras y experiencias únicas mientras viajas cómodamente hacia tu destino. ¡Prepárate para un viaje inolvidable con nuestra selección de planes en autobús</p>
+                  <button type="button" class="btn btn-primary btn-sm">Ver Planes</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" id="card-box-2">
+                <img src="https://blog.hoteleus.com/wp-content/uploads/2022/09/tren.jpg"  class="card-img-top" alt="..." id="train-photo">
+                <div class="card-body">
+                  <h5 class="card-title">Viaje en Tren</h5>
+                  <p class="card-text">Déjate llevar por la elegancia y la comodidad de nuestros viajes en tren. Disfruta de la velocidad, la tranquilidad y las impresionantes vistas panorámicas mientras te desplazas de un destino a otro. Con nuestras opciones de viaje en tren, tu experiencia será tan emocionante como el destino mismo.</p>
+                  <button type="button" class="btn btn-primary btn-sm">Ver Planes</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" id="card-box-3">
+                <img src="https://www.guioteca.com/viajes-en-avion/files/2021/07/%C2%BFDolor-de-dientes-al-viajar-en-avio%CC%81n-.jpeg" class="card-img-top" alt="..." id="plane-photo">
+                <div class="card-body">
+                  <h5 class="card-title">Viaje en Avion</h5>
+                  <p class="card-text">Eleva tus viajes a nuevas alturas con nuestras emocionantes opciones de vuelo. Desde destinos locales hasta internacionales, nuestras ofertas de vuelos te llevarán a lugares lejanos con comodidad y estilo. ¡Descubre un mundo de posibilidades con nuestros planes de viaje en avión!</p>
+                  <button type="button" class="btn btn-primary btn-sm">Ver Planes</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
